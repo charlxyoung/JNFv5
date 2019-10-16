@@ -1,0 +1,1641 @@
+{
+  "settings": {
+    "name": "Jimbel Nwabueze Foundation",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#968251",
+        "secondaryColor": "#000000",
+        "successColor": "#dfd9ca",
+        "infoColor": "#2d003d",
+        "warningColor": "#fffefc",
+        "dangerColor": "#016029",
+        "titleFont": "Titillium Web",
+        "subtitleFont": "Montserrat",
+        "textFont": "Titillium Web",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#4a4a4a",
+        "#080808",
+        "#f0f0f0",
+        "#ffffff",
+        "#fffefc",
+        "#232323",
+        "#2d003d"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.1",
+    "siteFonts": [],
+    "uniqCompNum": 116,
+    "versionPublish": "4.9.6",
+    "screenshot": "screenshot.png",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/jnf-favicon-128x121.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "    <audio controls=\"\" src=\"http://www.jimbelnwabuezefoundation.org/assets/music/JNF_opening.mp3\" autoplay=\"\" hidden=\"true\">\n    </audio>\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2p",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#2d003d"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2d003d"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2d003d",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#742282"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#742282"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2d003d"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#fff9ed!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2d003d",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#742282"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#742282!important"
+            },
+            ".navbar-caption": {
+              "font-size": "18px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffefc",
+            "fontSize": "0.9",
+            "imageSize": "4.5",
+            "fontName": {
+              "name": "Titillium Web",
+              "css": "'Titillium Web', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "fontColor": "#2d003d",
+            "fontHoverColor": "#742282"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-2u\">WHO WE ARE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatwedo.html\" aria-expanded=\"false\">WHAT WE DO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whereweare.html\" aria-expanded=\"false\">WHERE WE ARE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-lg btn btn-white\" href=\"https://mobirise.com/\"><span style=\"font-weight: normal;\">DONATE</span></a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jnf-logo-combox-285x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jimbel Nwabueze<br>Foundation</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-2t"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-title I": {
+              "color": "#fffffd"
+            },
+            ".mbr-section-text": {
+              "text-align": "right",
+              "color": "#fffefc",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "17px"
+            },
+            ".mbr-section-title": {
+              "color": "#fffefc",
+              "text-align": "right",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "60px"
+            },
+            ".mbr-section-title B": {
+              "color": "#fffefc"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "4",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/africa-boy-brick-wall-1686467-2000x1334.jpg",
+                "contentAlign": "center",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "Swinging<br><b>Change</b>",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "text": "We help strike a balance",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Explore</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Donate</a>",
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6083-2000x1333.jpg",
+                "contentAlign": "right",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "Nurturing<br><font color=\"#fffefc\"><b>Hearts</b></font>",
+                "overlay": true,
+                "text": "Giving the   helpless a reason to hope more and hold on",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Know More</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Donate</a>",
+                "overlayOpacity": "0.7",
+                "overlayColor": "#2d003d"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/boy-child-kid-1935637-2000x3000.jpg",
+                "contentAlign": "left",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "Building<br><b>Vision</b>",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "text": "We are the Foundation.<br>We bring Tranformation",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20180803-wa0008-1-1080x861.jpg",
+                "contentAlign": "left",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "Enlightening<br><b>The Future</b>",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "text": "Education is the foundation of knowledge",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> ",
+                "overlayColor": "#000000"
+              }
+            ]
+          },
+          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
+          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-2v"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px",
+              "color": "#000000"
+            },
+            ".heading-title": {
+              "font-size": "36px",
+              "color": "#2d003d"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/architecture-black-and-white-black-and-white-911738-2000x1335.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2d003d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffefc",
+            "overlayOpacity": "0.8"
+          },
+          "title": "Jimbel Nwabueze Foundation",
+          "text": "We are a Christian non-profit organization that is committed to showing the love of Christ to the world by establishing platforms that would bring about change to the economy of Africa as well as the continent and by ripple effect the rest of the world. We as an organization are committed to revealing the true love of Jesus Christ to the world through our progress and in everything we do.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-36"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<audio>\n   <source name=\"JNF_Opening\" src=\"http://www.jimbelnwabuezefoundation.org/assets/music/JNF_opening.mp3\" type=\"audio/mpeg\" loop=\"false\" hidden=\"true\" autostart=\"true\"> \n</audio>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2x"
+        },
+        {
+          "_inherit": "features8",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showHeading": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "iconsBgColor": "#bdb39a",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#131313",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/06.jpg"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "tree-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": ""
+            }
+          },
+          "title1": "<b>Reaching the Nodes</b>",
+          "subtitle1": "Awesome",
+          "text1": "We stand as a foundation and source to reaching the forgotten.   ",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/07.jpg"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "light-bulb",
+              "family": "icon54",
+              "active": true,
+              "link": ""
+            }
+          },
+          "title2": "<b>Enlightenment for all</b>",
+          "subtitle2": "Awesome",
+          "text2": "We advocate education for all regardless of physical or mental challenge.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/08.jpg"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "map-pin",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
+            }
+          },
+          "title3": "<b>Gospel in the Outskirts</b>",
+          "subtitle3": "Awesome",
+          "text3": "We propagate the good news of Christ Jesus and the power of salvation .",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "Always on your terms",
+          "text": "Mobirise",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "_name": "features9",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#bdb39a",
+              "border-color": "#bdb39a"
+            },
+            ".card-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "16px",
+              "color": "#fffefc"
+            },
+            ".card-title B": {
+              "color": "#fffefc"
+            },
+            ".card-text": {
+              "color": "#dfd9ca"
+            }
+          },
+          "_anchor": "features9-35"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": "61",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/architecture-black-and-white-black-and-white-911738-2000x1335.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffefc",
+            "overlayOpacity": "0.8"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/jnf-final-1400x763.png",
+              "link": "",
+              "alt": "JNF Logo",
+              "title": "JNF Logo"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Meet the<br><b>FOUNDER</b>",
+          "text": "The inspired soul of reaching out<br>doing divine works is given to a man of passion<br>for change and vision for growth.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Read More</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "B": {
+              "color": "#2d003d"
+            },
+            "H3": {
+              "color": "#2d003d",
+              "text-align": "right",
+              "font-size": "48px"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "P": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header3-2w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "color": "#968251",
+              "font-size": "36px"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "16px"
+            },
+            ".heading-title B": {
+              "color": "#fffffd",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".heading-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/huawei-mate-9-wallpaper-170-2000x1778.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.8"
+          },
+          "title": "<b>WHERE </b>WE STAND",
+          "text": "Our actions are born out of a strong love and passion towards the development of African continent from being predominately third – world to being a world power.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"whereweare.html\" data-toolbar=\"-mbrBtnMove\">Know More</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-33"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fffefc"
+          },
+          "text": "<p>“Good works is giving to the poor and the helpless, but divine works is showing them their worth to those that matters.”\r</p><p>― <b>Criss Jami</b>, <i>Killosophy</i></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "content2-32"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#fffffd"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "18px",
+              "color": "#fffffd"
+            }
+          },
+          "_params": {
+            "countersColor": "#fffffd",
+            "showTitles": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/6806983-purple-background-2000x1250.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#f0f0f0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d003d",
+            "overlayOpacity": "0.8"
+          },
+          "title1": "Volunteers<br>",
+          "title2": "Projects",
+          "title3": "Lives Reached",
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "number1": "171",
+          "number2": "3",
+          "number3": "369",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-31"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Outreach Blog",
+          "text": "JIMBEL NWABUEZE FOUNDATION",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/huawei-mate-9-wallpaper-170-2880x2560.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "<b>The Change from Within</b>",
+          "subtitle1": "Awesome",
+          "text1": "Your articles will go in here",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/huawei-mate-9-wallpaper-170-2880x2560.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title2": "<b>The Revival</b>",
+          "subtitle2": "Awesome",
+          "text2": "Your articles will go in here",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".card-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "features7-2z"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffefc",
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
+          },
+          "text1": "<font color=\"#2d2d2d\"><b>+234 803 195 1169</b></font>",
+          "text2": "<b>+81 80 9306 7818</b>",
+          "title1": "TOKYO, JAPAN",
+          "title2": "LAGOS, NIGERIA",
+          "title3": "<b>Need help?</b>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"tel:+2348031951169\" data-toolbar=\"-mbrBtnMove\">Call Us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer3",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#2d2d2d",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".mbr-section-title B": {
+              "color": "#2d2d2d"
+            },
+            ".mbr-section-text B": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          },
+          "_anchor": "footer3-30"
+        },
+        {
+          "_params": {
+            "showIcons": false,
+            "rows": "4",
+            "listColor": "#2d003d",
+            "btnColor": "#fffcf6",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2d003d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#2d003d",
+            "overlayOpacity": "0.9"
+          },
+          "heading": "Copyright 2019 <b>| </b>Jimbel Nwabueze Foundation<br>",
+          "list1": "<b><a href=\"index.html\" class=\"text-success\">Home</a></b>",
+          "list2": "<b><a href=\"whatwedo.html\" class=\"text-success\">Explore</a></b>",
+          "list3": "<b><a href=\"https://paystack.com/pay/jimbelnwabuezefoundation\" class=\"text-success\">Donate</a></b>",
+          "list4": "<b><a href=\"whereweare.html\" class=\"text-success\">Contact Us</a></b>",
+          "list5": "<b>The Stray Project</b>",
+          "list6": "<a href=\"http://mobirise.com\">C</a>ontact",
+          "list7": "<a href=\"http://mobirise.com\">I</a>mage Gallary",
+          "list8": "<a href=\"http://mobirise.com\">O</a>ur Disposition",
+          "list9": "Our Location",
+          "list10": "<a href=\"http://mobirise.com\">O</a>ur Reach",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            ".footer-list": {
+              "color": "#2d003d"
+            },
+            ".btn-social": {
+              "border-color": "#fffcf6",
+              "color": "#fffcf6"
+            },
+            ".btn-social:hover": {
+              "background": "#fffcf6",
+              "color": "#fff"
+            },
+            "LI": {
+              "color": "#2d003d"
+            },
+            ".footer-header": {
+              "color": "#dfd9ca"
+            },
+            "B": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "footer2-2y"
+        }
+      ]
+    },
+    "whatwedo.html": {
+      "settings": {
+        "title": "What We Do",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#2d003d"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2d003d"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2d003d",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#742282"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#742282"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2d003d"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#fff9ed!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2d003d",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#742282"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#742282!important"
+            },
+            ".navbar-caption": {
+              "font-size": "18px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffefc",
+            "fontSize": "0.9",
+            "imageSize": "4.5",
+            "fontName": {
+              "name": "Titillium Web",
+              "css": "'Titillium Web', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "fontColor": "#2d003d",
+            "fontHoverColor": "#742282"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-2u\">WHO WE ARE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatwedo.html\" aria-expanded=\"false\">WHAT WE DO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whereweare.html\" aria-expanded=\"false\">WHERE WE ARE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-lg btn btn-white\" href=\"https://mobirise.com/\"><span style=\"font-weight: normal;\">DONATE</span></a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jnf-logo-combox-285x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jimbel Nwabueze<br>Foundation</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-1p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/adorable-beautiful-beautiful-eyes-2113709-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d003d",
+            "overlayOpacity": "0.9"
+          },
+          "title": "<br><b>WHAT</b> WE DO",
+          "text": "We are vested on changing the lives of African children particularly the less privileged amongst us through free education.  This goal will take over a million African kids off the street by the year 2030.  We believe that the best gift anyone can give to a child is quality education and such we are committed in making this vision a reality across Africa. Every child is your child and every child count in Jimbel Nwabueze foundation.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-23"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H1": {
+              "color": "#232323",
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#ffffff"
+          },
+          "title": "Touching Lives, Touching Nations",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1y"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#2d003d"
+            }
+          },
+          "_params": {
+            "countersColor": "#2d003d",
+            "showTitles": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#ffffff",
+            "containerColor2": "#f0f0f0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Volunteers&nbsp;",
+          "title2": "Projects",
+          "title3": "Lives Reached",
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "number1": "171",
+          "number2": "3",
+          "number3": "369",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-1t"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Our <b>Believe System</b>",
+          "text": "We stand for what we believe and we believe that...",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "tree-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title1": "Channel to All",
+          "subtitle1": "Awesome",
+          "text1": "We are not keepers of wealth, but channels through which the love of Christ can flow to all the nations.<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "align-right",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title2": "Equality for All",
+          "subtitle2": "Awesome",
+          "text2": "Every life has equal value and believe that every child is our child, therefore every child should be in school. <br>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "disabled-users",
+              "family": "icon54-v4",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title3": "Stability for All",
+          "subtitle3": "Awesome",
+          "text3": "No child should live a low-quality life especially those suffering from disabilities.&nbsp;<br>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-2k",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            ".heading-title B": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".card-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showHeading": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Always on your terms",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "books-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title1": "Education for All",
+          "subtitle1": "Awesome",
+          "text1": "Every child should be in school. <br><br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "retweet",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title2": "Transformation by All",
+          "subtitle2": "Awesome",
+          "text2": "Education of the youth will create ripple effect that would change the economic situations in Africa and the world at large. <br>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "target",
+              "family": "icon54",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title3": "Goal for All",
+          "subtitle3": "Awesome",
+          "text3": "In changing lives and touching lives and changing nations.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-2m",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            ".card-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://paystack.com/pay/jimbelnwabuezefoundation\" data-toolbar=\"-mbrBtnMove\">Support the Foundation</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2n",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showIcons": false,
+            "rows": "4",
+            "listColor": "#2d003d",
+            "btnColor": "#fffcf6",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2d003d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#2d003d",
+            "overlayOpacity": "0.9"
+          },
+          "heading": "Copyright 2019 <b>| </b>Jimbel Nwabueze Foundation<br>",
+          "list1": "<b><a href=\"index.html\" class=\"text-success\">Home</a></b>",
+          "list2": "<b><a href=\"whatwedo.html\" class=\"text-success\">Explore</a></b>",
+          "list3": "<b><a href=\"https://paystack.com/pay/jimbelnwabuezefoundation\" class=\"text-success\">Donate</a></b>",
+          "list4": "<b><a href=\"whereweare.html\" class=\"text-success\">Contact Us</a></b>",
+          "list5": "<b>The Stray Project</b>",
+          "list6": "<a href=\"http://mobirise.com\">C</a>ontact",
+          "list7": "<a href=\"http://mobirise.com\">I</a>mage Gallary",
+          "list8": "<a href=\"http://mobirise.com\">O</a>ur Disposition",
+          "list9": "Our Location",
+          "list10": "<a href=\"http://mobirise.com\">O</a>ur Reach",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            ".footer-list": {
+              "color": "#2d003d"
+            },
+            ".btn-social": {
+              "border-color": "#fffcf6",
+              "color": "#fffcf6"
+            },
+            ".btn-social:hover": {
+              "background": "#fffcf6",
+              "color": "#fff"
+            },
+            "LI": {
+              "color": "#2d003d"
+            },
+            ".footer-header": {
+              "color": "#dfd9ca"
+            },
+            "B": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "footer2-1q"
+        }
+      ]
+    },
+    "whereweare.html": {
+      "settings": {
+        "title": "Where We Are",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#2d003d"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2d003d"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2d003d",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#742282"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#742282"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2d003d"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#fff9ed!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffefc"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2d003d",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#742282"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#742282!important"
+            },
+            ".navbar-caption": {
+              "font-size": "18px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffefc",
+            "fontSize": "0.9",
+            "imageSize": "4.5",
+            "fontName": {
+              "name": "Titillium Web",
+              "css": "'Titillium Web', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "fontColor": "#2d003d",
+            "fontHoverColor": "#742282"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content7-2u\">WHO WE ARE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatwedo.html\" aria-expanded=\"false\">WHAT WE DO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whereweare.html\" aria-expanded=\"false\">WHERE WE ARE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-lg btn btn-white\" href=\"https://mobirise.com/\"><span style=\"font-weight: normal;\">DONATE</span></a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jnf-logo-combox-285x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jimbel Nwabueze<br>Foundation</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-1n"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-text": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "left",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2d2d2d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.8"
+          },
+          "title": "<br><b>WHERE</b>&nbsp;WE ARE",
+          "text": "Our vision and mission set to be fulfilled cannot be accomplished in isolation which therefore mandates outreach to remote communities. We stand in line for the needy and become a bridge for our help to reach the them.&nbsp;<i>Reach out to the world through us</i><i><br></i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-2o"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.2121666941002!2d7.4642360147658815!3d5.5355182959863125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042dd3d8b2547dd%3A0x6d97c194ad0a5620!2s37%20Mission%20Hill%2C%20Eziama%20Ossah%2C%20Umuahia!5e0!3m2!1sen!2sng!4v1567444277011!5m2!1sen!2sng\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-29"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "formBg": "#ffffff",
+            "formHeader": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/nice-white-wallpaper-hd-1920x1200.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": "0.5"
+          },
+          "title": "Reach the Foundation",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "OUR HEARTS, HANDS AND EARS ARE OPENED",
+          "form": {
+            "action": "founder@jimbelnwabuezefoundation.org",
+            "alerts": {
+              "success": "Thank you for reaching out to us!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Reach Out</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-2b",
+          "_styles": {
+            ".form": {
+              "background": "#ffffff"
+            },
+            ".form-title": {
+              "text-align": "center",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "14px"
+            },
+            ".btn": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showIcons": false,
+            "rows": "4",
+            "listColor": "#2d003d",
+            "btnColor": "#fffcf6",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2d003d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#2d003d",
+            "overlayOpacity": "0.9"
+          },
+          "heading": "Copyright 2019 <b>| </b>Jimbel Nwabueze Foundation<br>",
+          "list1": "<b><a href=\"index.html\" class=\"text-success\">Home</a></b>",
+          "list2": "<b><a href=\"whatwedo.html\" class=\"text-success\">Explore</a></b>",
+          "list3": "<b><a href=\"https://paystack.com/pay/jimbelnwabuezefoundation\" class=\"text-success\">Donate</a></b>",
+          "list4": "<b><a href=\"whereweare.html\" class=\"text-success\">Contact Us</a></b>",
+          "list5": "<b>The Stray Project</b>",
+          "list6": "<a href=\"http://mobirise.com\">C</a>ontact",
+          "list7": "<a href=\"http://mobirise.com\">I</a>mage Gallary",
+          "list8": "<a href=\"http://mobirise.com\">O</a>ur Disposition",
+          "list9": "Our Location",
+          "list10": "<a href=\"http://mobirise.com\">O</a>ur Reach",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            ".footer-list": {
+              "color": "#2d003d"
+            },
+            ".btn-social": {
+              "border-color": "#fffcf6",
+              "color": "#fffcf6"
+            },
+            ".btn-social:hover": {
+              "background": "#fffcf6",
+              "color": "#fff"
+            },
+            "LI": {
+              "color": "#2d003d"
+            },
+            ".footer-header": {
+              "color": "#dfd9ca"
+            },
+            "B": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "footer2-1o"
+        }
+      ]
+    }
+  }
+}
